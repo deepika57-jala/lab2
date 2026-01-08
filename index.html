@@ -1,34 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Basic HTML Page</title>
-  </head>
-  <body>
-    <h1>Hello World</h1>
+    <title>Deepika's Profile Page</title>
+</head>
+<body>
 
-    <p>
-      This is a simple webpage created using HTML.<br />
-      HTML is used to structure web pages.
-    </p>
+    <header>
+        <h1>Welcome to the Profile Page</h1>
+        <p>Created by: <strong>Deepika</strong></p>
+    </header>
+
+    <div class="profile-card">
+        <h2>About Deepika</h2>
+        
+        <p>Deepika is a student exploring the world of <mark>web development</mark>. Below is her progress so far.</p>
+
+   
+       
+            <p>She wants to become a Full Stack Developer at VIT-AP!</p>
+       
+
+        <hr>
+
+        <form>
+            <legend><strong>Skill Assessment</strong></legend>
+            <h3>Choose your favorite language:</h3>
+            
+            <input type="radio" id="html" name="language" value="HTML" /> 
+            <label for="html">HTML</label><br />
+            
+            <input type="radio" id="css" name="language" value="CSS" /> 
+            <label for="css">CSS</label><br />
+            
+            <input type="radio" id="js" name="language" value="JavaScript" /> 
+            <label for="js">JavaScript</label><br />
+            
+            <br />
+            <button type="submit">Submit Choice</button>
+        </form>
+    </div>
 
     <br />
 
-    <h3>Choose your favorite language:</h3>
+    <footer>
+        <p>Want to learn more? 
+            <a href="https://www.google.com" target="_blank">Search on Google</a>
+        </p>
+        
+        <h3>Powered by:</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" 
+             alt="HTML5 Logo" 
+             width="100">
+    </footer>
 
-    <input type="radio" name="language" value="HTML" /> HTML<br />
-    <input type="radio" name="language" value="CSS" /> CSS<br />
-    <input type="radio" name="language" value="JavaScript" /> JavaScript<br />
-
-    <br />
-
-    <button>Submit</button>
-
-    <br /><br />
-
-    <a href="https://www.google.com" target="_blank">
-      Click here to visit Google
-    </a>
-  </body>
+</body>
 </html>
